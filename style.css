@@ -7,10 +7,33 @@ body {
 
 .box {
     display: flex;
+    flex-direction: row;
     margin-top: 50px;
+    justify-content: space-between;
     
 }
 
-.img-ilustracao {
-    width: 37em;    
+.box-imagem {
+    width: 30%;
+    margin-left: 40px;
 }
+
+.img-ilustracao {
+    width: 29em;    
+}
+
+.box-mensagem {
+   width: 40%;
+   margin-right: 30px;
+}
+
+.titulo {
+    font-size: 1.8em;
+    color: white;
+}
+
+.texto {
+    color: white;
+    font-size: 1.0em;
+}
+
