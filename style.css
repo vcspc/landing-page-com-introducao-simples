@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
     background-image: url(images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
     background-repeat: no-repeat;
-    background-size: 800px;
+}
+
+.img-logo {
+    margin-top: 30px;
+    transform: scale(70%);
 }
 
 .box {
@@ -19,21 +26,58 @@ body {
 }
 
 .img-ilustracao {
-    width: 29em;    
+    width: 42em;   
+    margin-left: 30px; 
 }
 
 .box-mensagem {
-   width: 40%;
-   margin-right: 30px;
+   width: 35%;
+   margin-right: 40px;
 }
 
 .titulo {
     font-size: 1.8em;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .texto {
     color: white;
     font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif;
 }
+
+#button-registrar {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button-registrar:hover {
+   background-color: hsl(300, 69%, 71%);
+}
+
+.box-social {
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-right: 50px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-bottom: 30px;
+}
+
+.icon:hover {
+    background-color: orange;
+    
+}
+
+
 
